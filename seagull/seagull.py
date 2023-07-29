@@ -9,7 +9,6 @@ def fetch_stats(driver):
     driver.back()
     return driver
 
-url = 'https://en.aqua-fish.net'
 # Open the webpage
 driver.get('https://en.aqua-fish.net/fish/')
 
